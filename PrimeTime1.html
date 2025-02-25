@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link
+			rel="stylesheet"
+			href="PrimeTime1.css" />
+	</head>
+	<body>
+		<div class="container">
+			<h1>Budget tracker</h1>
+			<div
+				id="balance-box"
+				class="positive">
+				<h3>Balance</h3>
+				<p id="balance"></p>
+			</div>
+			<br />
+			<from>
+				<label>Description:</label>
+				<br />
+				<input
+					type="text"
+					id="description"
+					placeholder="Example: S-market" />
+				<br /><br /><br />
+				<lable>Sum:</lable>
+				<br />
+				<input
+					type="number"
+					id="sum"
+					placeholder="Example: -50 or +100" />
+				<br /><br /><br />
+				<button id="btn1">Add Transaction</button>
+			</from>
+			<h3>Transaction</h3>
+			<ul id="transaction-list"></ul>
+		</div>
+		<script src="PrimeTime1.js"></script>
+	</body>
+</html>
